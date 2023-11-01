@@ -1,0 +1,123 @@
+:root{
+    --primary:rgba(255, 0, 0, 0.774);
+    --sec:blue;
+    --tet:black;
+}
+
+#home{
+    font-size: 3em;
+    text-align: center;
+}
+
+
+
+
+
+body{
+    background-color: silver;
+    font-family: "raleway",sans-serif;
+    text-align: justify;
+}
+
+
+
+label{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+input#fullname{
+    font-size: 14px;
+    height: 20px;
+    width: 200px;
+    border: 1px solid #DADADA;
+    background-position: 6px;
+     box-shadow: 0 0 10px;
+     background-color: #EEE;
+     border-radius: 5px;
+}
+input#email{
+    font-size: 14px;
+    height: 20px;
+    width: 200px;
+    border: 1px solid #DADADA;
+    background-position: 6px;
+    box-shadow: 0 0 10px;
+    background-color: #EEE;
+    border-radius: 5px;
+}
+
+
+input#gpz{
+    border-radius: 10px;
+    font-size: 14px;
+    height: 20px;
+    width: 300px;
+    border: 1px solid #DADADA;
+    background-position: 6px;
+    box-shadow: 0 0 10px;
+    background-color: #EEE;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    width: 5%;
+    size: 10%;
+       
+
+}
+textarea{
+    border-radius: 10px;
+}
+input#passport{
+    border-radius: 5px;
+    font-size: 14px;
+    height: 20px;
+    width: 200px;
+    border: 1px solid #DADADA;
+    background-position: 6px;
+    box-shadow: 0 0 10px;
+    background-color: #EEE
+
+}
+
+input#credentials{ 
+    border-radius: 5px;
+    font-size: 14px;
+    height: 20px;
+    width: 200px;
+    border: 1px solid #DADADA;
+    background-position: 6px;
+    box-shadow: 0 0 10px;
+    background-color: #EEE
+
+}
+input#dob{
+    font-size: 14px;
+    height: 20px;
+    width: 200px;
+    border: 1px solid #DADADA;
+    background-position: 6px;
+    box-shadow: 0 0 10px;
+    background-color: #EEE;
+    border-radius: 5px;
+}
+input#male{
+    width: 20px;
+}
+input[type="password"]{
+    background-color: var(--tet);
+    border-radius: 5px;
+}
+form button:hover{
+    background-color: chocolate;
+    border: solid var(--sec) 1px;
+    color: var(--sec);
+    transition: 900ms;
+    cursor: pointer;
+}
+
+    

@@ -1,0 +1,400 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.b1{
+    background: linear-gradient(120deg,lightblue,white);
+    line-height: 7px;
+    font-size: xx-large;
+    font-family: "Baloo Da 2" sans-serif;
+    width: 100%;
+    margin-right: 50%;
+    
+}
+.sbb1{
+    display: flex;
+}
+h5{
+    font-size: small;
+}
+
+h4{
+    line-height: 25px;
+    font-size: large;
+}
+hr{
+    width: 50%;
+    margin-left: 10px;
+}
+span{
+    background-color:darkblue ;
+}
+.logo{
+    width: 97%;
+    margin-left: 1.5%;
+    color: rgba(8, 8, 228, 0.54);
+    padding-top: 0.125px;
+    font-family: arial black;
+    
+}
+
+.logo img{
+    width: 20%;
+    margin-left: 0%;
+    
+}
+
+button{
+    background-color: darkblue;
+    padding: 10px 20px;
+    border: solid white 2px;
+    border-radius: 5px;
+    color: white;
+    font-family:arial black;
+}
+button:hover{
+    cursor: pointer;
+    transition: 700ms;
+}
+
+.botton{
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    align-items: start;
+    justify-content:space-between;
+    margin-top: 30px;
+    animation-name: botton;
+    animation-duration: 10s;
+}
+.bu1{
+    animation-name: bu1;
+    animation-duration: 5s;
+    width: 90%;
+    margin-right: 15%;
+    
+
+}
+.bu2{
+    
+    animation-name: bu2;
+    animation-duration: 4s;
+    width: 90%;
+    margin-right: 15%;
+    
+    
+
+}
+.bu3{
+    animation-name: bu3;
+    animation-duration: 3s;
+    width: 90%;
+    margin-right: 15%;
+    
+
+}
+@keyframes bu1{
+    0%{margin-left: -2000%;}
+    20%{margin-left: 5%;}
+    50%{margin-left: 5%;}
+    100%{margin-left: 5%;}
+    
+}
+@keyframes bu2{
+    0%{margin-left: -2000%;}
+    20%{margin-left: 5%;}
+    50%{margin-left: 5%;}
+    100%{margin-left: 5%;}
+    
+}
+@keyframes bu3{
+    0%{margin-left: -2000px;}
+    20%{margin-left: 5%;}
+    50%{margin-left: 5%;}
+    100%{margin-left: 5%;}
+    
+}
+
+.b2{
+    background: linear-gradient(120deg,purple,rgb(251, 131, 151));
+    padding: 10px;
+    
+
+}
+.fonting{
+    line-height: 5px;
+    text-align: center;
+}
+.sb2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    
+}
+
+#bsp1{
+    color: rgb(2, 2, 100);
+    font-weight: bolder;
+    font-family: arial black;
+}
+.svg1{
+    border-radius: 50px;
+    border-style: circle;
+    width: 21%;
+    background-color: blue;
+}
+#bsp2{
+    color: rgb(2, 2, 100);
+    font-weight: bolder;
+    font-family: arial black;
+}
+.svg2{
+    border-radius: 45px;
+    border-style: circle;
+    width: 15%;
+    background-color: blue;
+}
+#bsp3{
+    color: rgb(2, 2, 100);
+    font-weight: bolder;
+    font-family: arial black;
+}
+.svg3{
+    border-radius: 45px;
+    border-style: circle;
+    width: 15%;
+    background-color: blue;
+
+}
+#bsp4{
+    color: rgb(2, 2, 100);
+    font-weight: bolder;
+    font-family: arial black;
+}
+.span4{
+    color: rgb(2, 2, 100);
+    font-weight: bolder;
+    font-family: arial black;
+}
+.span4:hover{
+    color: rgb(2, 2, 100);
+    font-weight: bolder;
+    font-family: arial black;
+    cursor: pointer;
+    width: 150%;
+    transition: 700ms;
+}
+figure img{
+    width: 100%;
+}
+#bsp5{
+    color: rgb(2, 2, 100);
+    font-weight: bolder;
+    font-family: arial black;
+}
+#bsp6{
+    color: rgb(2, 2, 100);
+    font-weight: bolder;
+    font-family: arial black;
+}
+.span{
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    margin-left: 1.5%;
+    height: 100%;
+}
+.ho1:hover{
+    cursor: default;
+    width: 102%;
+    transition:800ms;
+}
+.ho2:hover{
+    cursor: pointer;
+    width: 105%;
+    transition: 800ms;
+}
+.ho3:hover{
+    cursor: pointer;
+    width: 105%;
+    transition: 800ms;
+}
+.buy{
+    color: darkblue;
+    font-size: x-large;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    margin-left: 20%;
+    
+    
+}
+#buyy{
+    width: 50%;
+}
+#buyy:hover{
+    cursor: pointer;
+    transition: 700ms;
+}
+.sb3{
+    display:flex;
+    background-color: gray;
+    align-items: start;
+    padding-top: 65px;
+}
+.sb3 figure{
+    width: 50%;
+    border-left: solid blue 10px;
+    border-bottom: solid blue 10px;
+    margin-left: 0px;
+    animation-name: sb3img;
+    animation-duration: 5s;
+}
+@keyframes sb3img {
+    
+    
+}
+.bttn1{
+    line-height: 55px;
+}
+.h2{
+    color: rgb(11, 11, 121);
+    font-size: large;
+}
+#button1{
+    background-color:white; 
+    color: blue; 
+    border-radius:10px;
+    width:120%; 
+    text-align: left; 
+    font-size: large;
+    animation-name: button1;
+    animation-duration: 4s;
+
+}
+@keyframes button1 {
+    0%{margin-left: -2000px;}
+    20%{margin-left: 1%;}
+    60%{margin-left: 1%;}
+    100%{margin-left: 1%}
+}
+#button1:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    transition: 500ms;
+
+}
+#button2{
+    background-color:white; 
+    color: blue; 
+    border-radius:10px;
+    width:120%; 
+    text-align: left; 
+    font-size: large;
+    animation-name: button2;
+    animation-duration: 5s;
+    
+
+}
+@keyframes button2 {
+    0%{margin-left: -2000px;}
+    20%{margin-left: 1%;}
+    60%{margin-left: 1%;}
+    100%{margin-left: 1%;}
+    
+}
+#button2:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    transition: 500ms;
+
+}
+#button3{
+    background-color:white; 
+    color: blue; 
+    border-radius:10px;
+    width:120%; 
+    text-align: left; 
+    font-size: large;
+    animation-name: button3;
+    animation-duration: 6s;
+    
+
+}
+@keyframes button3 {
+    0%{margin-left: -2000px;}
+    20%{margin-left: 1%;}
+    60%{margin-left: 1%;}
+    100%{margin-left: 1%;}
+}
+#button3:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    transition: 500ms;
+
+}
+#button4{
+    background-color:white; 
+    color: blue; 
+    border-radius:10px;
+    width:120%; 
+    text-align: left; 
+    font-size: large;
+    animation-name: button4;
+    animation-duration: 7s;
+    
+
+}
+@keyframes button4 {
+    0%{margin-left: -2000px;}
+    20%{margin-left: 1%;}
+    60%{margin-left: 1%;}
+    100%{margin-left: 1%;}
+}
+#button4:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    transition: 500ms;
+
+}
+
+#button5{
+    background-color:white; 
+    color: blue; 
+    border-radius:10px;
+    width:120%; 
+    text-align: left; 
+   font-size: large;
+   animation-name: button5;
+   animation-duration: 8s;
+   
+}
+@keyframes button5 {
+    0%{margin-left: -2000px;}
+    20%{margin-left: 1%;}
+    60%{margin-left: 1%;}
+    100%{margin-left: 1%;}
+}
+#button5:hover{
+    background-color: darkblue;
+    cursor: pointer;
+    transition: 500ms;
+
+}
+
+
+footer{
+    padding: 30px 10px 30px 10px;
+    background-color: rgb(9, 91, 123);
+    color: white;
+    width: 150%;
+    
+}
+.footer{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    
+}
+

@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    margin-right: 50%;
+    
+}
+nav{
+    background-color: rgba(234, 14, 14, 0.858);
+    width: 200%;
+    position: sticky;
+
+}
+*{
+    box-sizing: border-box;
+}
+.root{
+    --pri:rgba(240, 240, 10, 0.843);
+    --sec:rgb(241, 161, 12);
+    --tet:red;
+
+}
+.logo img{
+    width: 15%;
+    border-radius: 10px;
+}
+.banner{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-image: url(./food.jpg);
+    width: 200%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    
+}
+.figure img{
+    width: 50%;
+    height: 50%;
+}
+.order{
+    text-align: center;
+}
+.state{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+input#state{
+    border: solid rgb(152, 10, 10) 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+.branch{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+input#branch{
+    border: solid rgb(152, 10, 10) 2px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
+}
+input#branch:hover{
+    background-color: rgba(191, 59, 11, 0.721);
+    cursor: pointer;
+    transition: 500ms;
+}
+input#state:hover{
+    background-color:rgba(191, 59, 11, 0.721);
+    cursor: pointer;
+    transition: 500ms;
+}
+button{
+    border-radius: 10px;
+    background-color: rgb(213, 32, 32);
+}
+button:hover{
+    background-color: rgb(255, 172, 17);
+    cursor: pointer;
+    transition: 400ms;
+}
+hr{
+    width: 200%;
+}
+.section{
+    font-size: 20px;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+
+

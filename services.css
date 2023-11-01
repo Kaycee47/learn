@@ -1,0 +1,44 @@
+:root{
+    --primary:green;
+    --sec:blue;
+    --tet:white;
+}
+
+
+h1{
+    background-color: white;
+    text-align: center;
+    font-size: 4em;
+    
+    
+}
+body{
+    background-color: black;
+    
+    
+}
+img{
+      border-radius: 10px;
+      border-image-outset: var(--primary);
+      border-color: var(--primary);
+      border-image-width: 50px;
+      text-align: center;
+      
+      
+
+      
+
+    
+}
+button{
+    background-color: white;
+    border-radius: 8px;
+    border-color: var(--primary);
+    font-style: var(--sec);
+}
+footer{
+    background-color: gray;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+}
